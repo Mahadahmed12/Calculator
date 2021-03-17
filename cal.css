@@ -1,0 +1,126 @@
+#mainbody{
+    background: linear-gradient(to right, #00FFD4, #00FF1B);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#maindiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+
+}
+#maindiv >p{
+    font-weight: bolder;
+    text-align: center;
+}
+.btndiv{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:0;
+    background: linear-gradient(to right, #e8fbf8);
+    
+}
+.btndiv >button{
+    cursor: pointer;
+    background-color: #D8FEFD;
+    outline: none;  
+    width: 60px;
+    height: 60px;
+    font-weight: bolder;
+    border: 1px solid white;
+    font-size: x-large;
+}
+.btndiv >button:hover{
+    background: white;
+    
+}
+#R-F-Sdiv{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 70px;
+    width: 220px;
+    background-color: rgba(0, 0, 0, .75) ;
+    display: flex;
+    text-align: right;
+    color: white;
+    font-size: 40px;
+    
+}
+
+
+/* #maindiv{
+   display: flex;
+    align-items: center;
+    flex-direction: column;    
+    display: flex;
+    align-content: center;
+    background-color: violet; 
+     background: linear-gradient(to right, #00FFD4, #00FF1B); 
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-width: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows:minmax(120px, auto) repeat(4, 100px);
+    border: 2px solid white;
+    
+}
+#maindiv >button{
+    cursor: pointer;
+    border: 1 px solid white;
+    background-color: #D8FEFD;
+    outline: none;
+
+    
+}
+#maindiv >button:hover{
+    background-color: white;
+
+}
+#displayparagraph{
+
+    min-height:auto ;
+    background-color:white;
+    margin: 0;
+    width: 200px;
+    border: 2px solid black;
+}
+#btndiv{ */
+    /* flex-flow: wrap-reverse; */
+    /* min-height: auto;
+min-width: auto; */
+    /* border: 2px solid black;
+    display: flex;
+    align-content: center;
+    background-color: violet; */
+
+/* .calbtn{
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Gotham Rounded, sans-serif;
+}
+.delbtn{
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    font-size: large;
+}
+.equalbtn{
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    font-size: large;
+}
+.clear-field{
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    font-size: large;
+} */ 
